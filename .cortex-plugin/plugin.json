@@ -1,0 +1,22 @@
+{
+  "name": "pdm-oee-command-center",
+  "version": "1.0.0",
+  "description": "Predictive Maintenance & OEE Command Center for wind turbine fleet monitoring. Deploys a full medallion pipeline, ML anomaly detection, Cortex Agent, and Streamlit dashboard on Snowflake.",
+  "skills": [
+    {
+      "name": "pdm-setup",
+      "description": "Deploy the full PDM+OEE pipeline: create tables, dynamic tables, ML models, procedures, agent, and Streamlit app",
+      "path": "skills/pdm-setup.md"
+    },
+    {
+      "name": "pdm-operate",
+      "description": "Operate the PDM Command Center: resume/suspend resources, run scoring, check alert status, replay data",
+      "path": "skills/pdm-operate.md"
+    },
+    {
+      "name": "pdm-demo",
+      "description": "Run the hackathon demo end-to-end: resume resources, verify state, open the app, walk through all 3 tabs",
+      "path": "skills/pdm-demo.md"
+    }
+  ]
+}
