@@ -1,0 +1,31 @@
+# Secrets & credentials
+**/secrets.toml
+.env
+**/.env
+
+# Snowflake CoCo internals
+.snowflake/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Lock files (regenerable)
+uv.lock
+
+# Test artifacts (generated at runtime)
+agent_response_raw.json
+phase1_response.json
+phase2_response.json
